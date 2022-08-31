@@ -16,6 +16,7 @@ namespace NutriHelper
     public partial class Form2 : Form
 
 
+
     {
         OleDbConnection bd;
 
@@ -47,18 +48,19 @@ namespace NutriHelper
             else
             {
 
-                Datos.nombre = txt_nombre.Text;
-                Datos.edad = Convert.ToInt16(txt_edad.Text);
-                Datos.altura = Convert.ToInt16(txt_altura.Text);
-                Datos.peso = Convert.ToSingle(txt_peso.Text);
+                string nombre = txt_nombre.Text;
+                int edad = Convert.ToInt16(txt_edad.Text);
+                int altura = Convert.ToInt16(txt_altura.Text);
+                float peso = Convert.ToSingle(txt_peso.Text);
                 Datos.metros = Datos.altura / 100;
-                Datos.contraseña = txt_contraseña.Text;
+                string contraseña = txt_contraseña.Text;
 
                 bd.Open();
                 OleDbCommand info;
-                info = new OleDbCommand("INSTERT INTO bd (nombre, sexo, contraseña, peso, altura, edad, actividad");
-
-
+                info = new OleDbCommand("INSTERT INTO usuario (nombre, sexo, contraseña, peso, altura, edad, actividad) VALUES ('" + nombre + "',)('" + contraseña + "',)('" + peso + "',)('" + altura + "',)('" + edad + "')");
+                info.Connection = bd;
+                info.ExecuteNonQuery();
+                bd.Close();
                 Form3 objetivos = new Form3();
                 objetivos.Show();
                 this.Hide();
@@ -153,7 +155,7 @@ namespace NutriHelper
         {
 
             bd = new OleDbConnection();
-            bd.ConnectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source = Nutrihelperdb.accdb";
+            bd.ConnectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source = NutrihelperDB.accdb";
 
         }
     }
