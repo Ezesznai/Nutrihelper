@@ -55,12 +55,12 @@ namespace NutriHelper
                 Datos.metros = Datos.altura / 100;
                 string contraseña = txt_contraseña.Text;
 
-                bd.Open();
-                OleDbCommand info;
-                info = new OleDbCommand("INSTERT INTO usuario (nombre, sexo, contraseña, peso, altura, edad, actividad) VALUES ('" + nombre + "',)('" + contraseña + "',)('" + peso + "',)('" + altura + "',)('" + edad + "')");
-                info.Connection = bd;
-                info.ExecuteNonQuery();
-                bd.Close();
+                //bd.Open();
+                //OleDbCommand info;
+                //info = new OleDbCommand("INSTERT INTO usuario (nombre, sexo, contraseña, peso, altura, edad, actividad) VALUES ('" + nombre + "',)('" + contraseña + "',)('" + peso + "',)('" + altura + "',)('" + edad + "')");
+                //info.Connection = bd;
+                //info.ExecuteNonQuery();
+                //bd.Close();
                 Form3 objetivos = new Form3();
                 objetivos.Show();
                 this.Hide();
@@ -154,8 +154,8 @@ namespace NutriHelper
         private void Form2_Load(object sender, EventArgs e)
         {
 
-            bd = new OleDbConnection();
-            bd.ConnectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source = NutrihelperDB.accdb";
+            //bd = new OleDbConnection();
+            //bd.ConnectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source = NutrihelperDB.accdb";
 
         }
     }

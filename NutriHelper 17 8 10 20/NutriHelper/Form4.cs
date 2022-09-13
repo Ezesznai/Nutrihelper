@@ -47,5 +47,13 @@ namespace NutriHelper
 
         }
 
-       }
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            using (Form5 Pantalla_principal = new Form5())
+            {
+                Pantalla_principal.Show();
+            }
+            this.Hide();
+        }
+    }
 }

@@ -30,40 +30,87 @@ namespace NutriHelper
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnInfografias = new System.Windows.Forms.Button();
+            this.btnDesayuno = new System.Windows.Forms.Button();
+            this.btnAlmuerzo = new System.Windows.Forms.Button();
+            this.btnCena = new System.Windows.Forms.Button();
+            this.btnSnacks = new System.Windows.Forms.Button();
+            this.lblKcalRest = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // button1
+            // btnInfografias
             // 
-            this.button1.Location = new System.Drawing.Point(282, 32);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(229, 37);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.
-                Button1_Click);
+            this.btnInfografias.Location = new System.Drawing.Point(51, 168);
+            this.btnInfografias.Name = "btnInfografias";
+            this.btnInfografias.Size = new System.Drawing.Size(75, 23);
+            this.btnInfografias.TabIndex = 0;
+            this.btnInfografias.Text = "Infografias";
+            this.btnInfografias.UseVisualStyleBackColor = true;
+            this.btnInfografias.Click += new System.EventHandler(this.BtnInfografias_Click);
             // 
-            // button2
+            // btnDesayuno
             // 
-            this.button2.Location = new System.Drawing.Point(354, 127);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnDesayuno.BackColor = System.Drawing.Color.DarkGray;
+            this.btnDesayuno.Location = new System.Drawing.Point(300, 167);
+            this.btnDesayuno.Name = "btnDesayuno";
+            this.btnDesayuno.Size = new System.Drawing.Size(75, 23);
+            this.btnDesayuno.TabIndex = 1;
+            this.btnDesayuno.Text = "desayuno";
+            this.btnDesayuno.UseVisualStyleBackColor = false;
+            this.btnDesayuno.Click += new System.EventHandler(this.BtnDesayuno_Click);
+            // 
+            // btnAlmuerzo
+            // 
+            this.btnAlmuerzo.Location = new System.Drawing.Point(300, 197);
+            this.btnAlmuerzo.Name = "btnAlmuerzo";
+            this.btnAlmuerzo.Size = new System.Drawing.Size(75, 23);
+            this.btnAlmuerzo.TabIndex = 2;
+            this.btnAlmuerzo.Text = "almuerzo";
+            this.btnAlmuerzo.UseVisualStyleBackColor = true;
+            // 
+            // btnCena
+            // 
+            this.btnCena.Location = new System.Drawing.Point(300, 227);
+            this.btnCena.Name = "btnCena";
+            this.btnCena.Size = new System.Drawing.Size(75, 23);
+            this.btnCena.TabIndex = 3;
+            this.btnCena.Text = "cena";
+            this.btnCena.UseVisualStyleBackColor = true;
+            // 
+            // btnSnacks
+            // 
+            this.btnSnacks.Location = new System.Drawing.Point(300, 257);
+            this.btnSnacks.Name = "btnSnacks";
+            this.btnSnacks.Size = new System.Drawing.Size(75, 23);
+            this.btnSnacks.TabIndex = 4;
+            this.btnSnacks.Text = "snack";
+            this.btnSnacks.UseVisualStyleBackColor = true;
+            // 
+            // lblKcalRest
+            // 
+            this.lblKcalRest.AutoSize = true;
+            this.lblKcalRest.Location = new System.Drawing.Point(51, 32);
+            this.lblKcalRest.Name = "lblKcalRest";
+            this.lblKcalRest.Size = new System.Drawing.Size(0, 13);
+            this.lblKcalRest.TabIndex = 5;
+            this.lblKcalRest.Click += new System.EventHandler(this.Label1_Click);
             // 
             // Form5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.lblKcalRest);
+            this.Controls.Add(this.btnSnacks);
+            this.Controls.Add(this.btnCena);
+            this.Controls.Add(this.btnAlmuerzo);
+            this.Controls.Add(this.btnDesayuno);
+            this.Controls.Add(this.btnInfografias);
             this.Name = "Form5";
             this.Text = "Form5";
+            this.Load += new System.EventHandler(this.Form5_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -74,7 +121,11 @@ namespace NutriHelper
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnInfografias;
+        private System.Windows.Forms.Button btnDesayuno;
+        private System.Windows.Forms.Button btnAlmuerzo;
+        private System.Windows.Forms.Button btnCena;
+        private System.Windows.Forms.Button btnSnacks;
+        private System.Windows.Forms.Label lblKcalRest;
     }
 }

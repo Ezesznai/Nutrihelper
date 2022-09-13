@@ -31,6 +31,7 @@
             this.lbl_felicidades = new System.Windows.Forms.Label();
             this.lbl_kcal = new System.Windows.Forms.Label();
             this.lbl_imc = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lbl_felicidades
@@ -65,18 +66,29 @@
             this.lbl_imc.TabIndex = 2;
             this.lbl_imc.Click += new System.EventHandler(this.Label1_Click);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(348, 206);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(156, 40);
+            this.button1.TabIndex = 3;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.Button1_Click);
+            // 
             // Form4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1200, 588);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.lbl_imc);
             this.Controls.Add(this.lbl_kcal);
             this.Controls.Add(this.lbl_felicidades);
             this.Font = new System.Drawing.Font("Arial Rounded MT Bold", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form4";
-            this.Text = "Form4";
+            this.Text = " ";
             this.Load += new System.EventHandler(this.Form4_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -88,5 +100,6 @@
         private System.Windows.Forms.Label lbl_felicidades;
         private System.Windows.Forms.Label lbl_kcal;
         private System.Windows.Forms.Label lbl_imc;
+        private System.Windows.Forms.Button button1;
     }
 }

@@ -108,7 +108,7 @@
             this.btn_mantener.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_mantener.BackgroundImage")));
             this.btn_mantener.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_mantener.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_mantener.Location = new System.Drawing.Point(529, 231);
+            this.btn_mantener.Location = new System.Drawing.Point(529, 230);
             this.btn_mantener.Name = "btn_mantener";
             this.btn_mantener.Size = new System.Drawing.Size(311, 107);
             this.btn_mantener.TabIndex = 8;

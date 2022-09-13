@@ -14,19 +14,39 @@ namespace NutriHelper
     {
         public Form5()
         {
-           if (Datos.edad > 0) { 
-            InitializeComponent();
+
+
+
+
         }
-           else
-            {
-                Form1 Pantalla_principal = new Form1();
-                Pantalla_principal.Show();
-                this.Close();
-            }
-          
-                }
 
+        private void Form5_Load(object sender, EventArgs e)
+        {
+            Datos.kcal_hoy -= (Datos.kcal_hoy_desayuno + Datos.kcal_hoy_almuerzo + Datos.kcal_hoy_cena + Datos.kcal_hoy_snack);
+            lblKcalRest.Text = "Kcal restantes hoy: " + (Datos.kcal - Datos.kcal_hoy);
+
+
+        }
+
+        private void Label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtnInfografias_Click(object sender, EventArgs e)
+        {
+            Form6 Infografias = new Form6();
+            Infografias.Show();
+            this.Hide();
+        }
+
+        private void BtnDesayuno_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("hola");
+
+
+        }
     }
-}
+}  
 
-    
+   
