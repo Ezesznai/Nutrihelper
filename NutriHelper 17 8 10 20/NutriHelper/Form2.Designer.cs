@@ -64,6 +64,7 @@
             this.txt_altura.Name = "txt_altura";
             this.txt_altura.Size = new System.Drawing.Size(223, 20);
             this.txt_altura.TabIndex = 3;
+            this.txt_altura.TextChanged += new System.EventHandler(this.Txt_altura_TextChanged);
             // 
             // txt_edad
             // 
@@ -150,7 +151,6 @@
             this.Cursor = System.Windows.Forms.Cursors.Default;
             this.DoubleBuffered = true;
             this.Name = "Form2";
-            this.Text = "Form2";
             this.Load += new System.EventHandler(this.Form2_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -46,6 +46,12 @@
             this.pcbInfo7 = new System.Windows.Forms.PictureBox();
             this.pcbInfo8 = new System.Windows.Forms.PictureBox();
             this.pcb0 = new System.Windows.Forms.PictureBox();
+            this.btnVolver = new System.Windows.Forms.Button();
+            this.btnAdelante = new System.Windows.Forms.Button();
+            this.btnAtras = new System.Windows.Forms.Button();
+            this.pcbOcultarBtns = new System.Windows.Forms.PictureBox();
+            this.pcbOcultarAtras = new System.Windows.Forms.PictureBox();
+            this.pcbOcultarAdelante = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pcbInfo1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pcbInfo2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pcbInfo3)).BeginInit();
@@ -55,6 +61,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.pcbInfo7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pcbInfo8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pcb0)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcbOcultarBtns)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcbOcultarAtras)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcbOcultarAdelante)).BeginInit();
             this.SuspendLayout();
             // 
             // lblTipoDInfografia
@@ -229,12 +238,73 @@
             this.pcb0.TabIndex = 17;
             this.pcb0.TabStop = false;
             // 
+            // btnVolver
+            // 
+            this.btnVolver.Location = new System.Drawing.Point(688, 403);
+            this.btnVolver.Name = "btnVolver";
+            this.btnVolver.Size = new System.Drawing.Size(75, 23);
+            this.btnVolver.TabIndex = 18;
+            this.btnVolver.Text = "VOLVER";
+            this.btnVolver.UseVisualStyleBackColor = true;
+            this.btnVolver.Click += new System.EventHandler(this.BtnVolver_Click);
+            // 
+            // btnAdelante
+            // 
+            this.btnAdelante.Location = new System.Drawing.Point(734, 363);
+            this.btnAdelante.Name = "btnAdelante";
+            this.btnAdelante.Size = new System.Drawing.Size(28, 23);
+            this.btnAdelante.TabIndex = 19;
+            this.btnAdelante.Text = ">";
+            this.btnAdelante.UseVisualStyleBackColor = true;
+            this.btnAdelante.Click += new System.EventHandler(this.BtnAdelante_Click);
+            // 
+            // btnAtras
+            // 
+            this.btnAtras.Location = new System.Drawing.Point(688, 363);
+            this.btnAtras.Name = "btnAtras";
+            this.btnAtras.Size = new System.Drawing.Size(28, 23);
+            this.btnAtras.TabIndex = 20;
+            this.btnAtras.Text = "<";
+            this.btnAtras.UseVisualStyleBackColor = true;
+            this.btnAtras.Click += new System.EventHandler(this.BtnAtras_Click);
+            // 
+            // pcbOcultarBtns
+            // 
+            this.pcbOcultarBtns.Location = new System.Drawing.Point(673, 363);
+            this.pcbOcultarBtns.Name = "pcbOcultarBtns";
+            this.pcbOcultarBtns.Size = new System.Drawing.Size(100, 29);
+            this.pcbOcultarBtns.TabIndex = 21;
+            this.pcbOcultarBtns.TabStop = false;
+            // 
+            // pcbOcultarAtras
+            // 
+            this.pcbOcultarAtras.Location = new System.Drawing.Point(688, 363);
+            this.pcbOcultarAtras.Name = "pcbOcultarAtras";
+            this.pcbOcultarAtras.Size = new System.Drawing.Size(38, 29);
+            this.pcbOcultarAtras.TabIndex = 22;
+            this.pcbOcultarAtras.TabStop = false;
+            // 
+            // pcbOcultarAdelante
+            // 
+            this.pcbOcultarAdelante.Location = new System.Drawing.Point(725, 363);
+            this.pcbOcultarAdelante.Name = "pcbOcultarAdelante";
+            this.pcbOcultarAdelante.Size = new System.Drawing.Size(38, 29);
+            this.pcbOcultarAdelante.TabIndex = 23;
+            this.pcbOcultarAdelante.TabStop = false;
+            this.pcbOcultarAdelante.Click += new System.EventHandler(this.PcbOcultarAdelante_Click);
+            // 
             // Form6
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.pcbOcultarAdelante);
+            this.Controls.Add(this.pcbOcultarAtras);
+            this.Controls.Add(this.pcbOcultarBtns);
+            this.Controls.Add(this.btnAtras);
+            this.Controls.Add(this.btnAdelante);
+            this.Controls.Add(this.btnVolver);
             this.Controls.Add(this.pcb0);
             this.Controls.Add(this.pcbInfo8);
             this.Controls.Add(this.pcbInfo7);
@@ -255,6 +325,7 @@
             this.Controls.Add(this.lblTipoDInfografia);
             this.Name = "Form6";
             this.Text = "Form6";
+            this.Load += new System.EventHandler(this.Form6_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pcbInfo1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pcbInfo2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pcbInfo3)).EndInit();
@@ -264,6 +335,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.pcbInfo7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pcbInfo8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pcb0)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcbOcultarBtns)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcbOcultarAtras)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcbOcultarAdelante)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -289,5 +363,11 @@
         private System.Windows.Forms.PictureBox pcbInfo7;
         private System.Windows.Forms.PictureBox pcbInfo8;
         private System.Windows.Forms.PictureBox pcb0;
+        private System.Windows.Forms.Button btnVolver;
+        private System.Windows.Forms.Button btnAdelante;
+        private System.Windows.Forms.Button btnAtras;
+        private System.Windows.Forms.PictureBox pcbOcultarBtns;
+        private System.Windows.Forms.PictureBox pcbOcultarAtras;
+        private System.Windows.Forms.PictureBox pcbOcultarAdelante;
     }
 }

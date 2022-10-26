@@ -24,7 +24,8 @@ namespace NutriHelper
         private void BtnInfo1_Click(object sender, EventArgs e)
         {
             pcbInfo1.BringToFront();
-            lblTipoDInfografia.Text = "1"; 
+            lblTipoDInfografia.Text = "1";
+            btnAdelante.BringToFront();
         }
 
         private void BtnInfo2_Click(object sender, EventArgs e)
@@ -68,6 +69,36 @@ namespace NutriHelper
         {
             pcbInfo8.BringToFront();
             lblTipoDInfografia.Text = "8";
+        }
+
+        private void BtnVolver_Click(object sender, EventArgs e)
+        {
+            Form5 Pantalla_principal = new Form5();
+            this.Hide();
+            Pantalla_principal.Show();
+        }
+
+        private void Form6_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void PcbOcultarAdelante_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtnAtras_Click(object sender, EventArgs e)
+        {
+            btnAdelante.BringToFront();
+            pcbOcultarAtras.BringToFront();
+
+        }
+
+        private void BtnAdelante_Click(object sender, EventArgs e)
+        {
+            btnAtras.BringToFront();
+            pcbOcultarAdelante.BringToFront();
         }
     }
 }

@@ -13,21 +13,27 @@ namespace NutriHelper
 {
     public partial class Form1 : Form
     {
-        
-        
-        
+
+        OleDbConnection db;
+
         public Form1()
         {
             InitializeComponent();
         }
 
-        
+
 
         private void Btn_Empezar_Click(object sender, EventArgs e)
         {
-         
-            Form5 Pantalla_principal = new Form5();
-            Pantalla_principal.Show();
+            /*OleDbCommand adapter_nombre;
+            adapter_nombre = new OleDbCommand("SELECT nombre FROM Usuarios WHERE nombre =" + Datos.nombre + "", db);
+            OleDbDataAdapter nombre = new OleDbDataAdapter(adapter_nombre);
+            DataSet dataset_nombre = new DataSet();
+            nombre.Fill(dataset_nombre);
+            */
+
+            Form8 nombreycontraseña = new Form8();
+            nombreycontraseña.Show();
             this.Hide();
         }
 
@@ -42,6 +48,8 @@ namespace NutriHelper
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            db = new OleDbConnection();
+            db.ConnectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\\Users\\47653943\\Documents\\GitHub\\nutrihelper 11 8\\Nutrihelper\\nutrihelperDB.accdb";
 
         }
     }

@@ -19,7 +19,7 @@ namespace NutriHelper
         static public double kcal;
         static public double imc;
         static public int metros;
-        static public string contraseña;
+        static public string password;
         static public double kcal_hoy;
         static public int kcal_hoy_almuerzo;
         static public int kcal_hoy_cena;
@@ -29,6 +29,7 @@ namespace NutriHelper
         static public bool Desayuno = false;
         static public bool Cena = false;
         static public bool Snack = false;
-
+        static public string clave_API;
+        static public char Comida;
     }
 }
