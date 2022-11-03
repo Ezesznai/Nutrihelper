@@ -1,0 +1,126 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+using System.Windows.Forms;
+using Newtonsoft.Json;
+
+namespace NutriHelper
+{
+    public partial class Form7 : Form
+    {
+        public Form7()
+        {
+            InitializeComponent();
+        }
+
+        private void Label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form7_Load(object sender, EventArgs e)
+        {
+            if (Datos.Comida == '1')
+            {
+                lblTipoComida.Text = "Desayuno";
+            }
+            if (Datos.Comida == '2')
+            {
+                lblTipoComida.Text = "Almuerzo";
+            }
+            if (Datos.Comida == '3')
+            {
+                lblTipoComida.Text = "Cena";
+            }
+            if (Datos.Comida == '4')
+            {
+                lblTipoComida.Text = "Snacks";
+            }
+        }
+
+        private void LblBusqueda_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private async void BtnAceptar_Click(object sender, EventArgs e)
+        {
+            HttpClient client = new HttpClient();
+            var byteArray = Encoding.ASCII.GetBytes("282131e23bd6496faa49f2c1d8acb04a:f89ee04e65c241ca800a7a8e073f7ae5");
+            client.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Basic", Convert.ToBase64String(byteArray));
+
+            var values = new Dictionary<string, string>
+            {
+               { "scope", "basic" },
+               { "grant_type", "client_credentials" }
+            };
+            var content = new FormUrlEncodedContent(values);
+            var response = await client.PostAsync("https://oauth.fatsecret.com/connect/token", content);
+
+            var responseString = await response.Content.ReadAsStringAsync();
+
+            RequestToken token = JsonConvert.DeserializeObject<RequestToken>(responseString);
+
+            Datos.clave_API = token.access_token;
+
+            string busqueda = txtIntroducirComida.Text;
+
+
+            var http = new HttpClient();
+
+            http.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", data.access_token);
+
+            var valuesRequest = new Dictionary<string, string>
+        {
+           { "application", "json" },
+        };
+
+            var contentRequest = new FormUrlEncodedContent(valuesRequest);
+
+            var responseRequest = await http.PostAsync("https://platform.fatsecret.com/rest/server.api?method=foods.search&search_expression=toast&format=json", contentRequest);
+
+            var responseRequestString = await responseRequest.Content.ReadAsStringAsync();
+
+
+
+
+
+            //Esta parte la tengo q programar con la api, pero por ahora sirve como para que puedas programar, la variable no tiene nada, pero despues cuando yo lo implemente yo le pongo para que guarde las calorias con las porciones
+            if (Datos.Comida == '1')
+            {
+                Datos.kcal_hoy_desayuno = (Datos.ComidaSelec * Datos.CantPorcion);
+            }
+            if (Datos.Comida == '2')
+            {
+                Datos.kcal_hoy_almuerzo = (Datos.ComidaSelec * Datos.CantPorcion);
+            }
+            if (Datos.Comida == '3')
+            {
+                Datos.kcal_hoy_cena = (Datos.ComidaSelec * Datos.CantPorcion);
+            }
+            if (Datos.Comida == '4')
+            {
+                Datos.kcal_hoy_snack = (Datos.ComidaSelec * Datos.CantPorcion);
+            }
+        }
+        private void BtnSalir_Click(object sender, EventArgs e)
+        {
+            Form5 Pantalla_principal = new Form5();
+            this.Hide();
+            Pantalla_principal.Show();
+            
+        }
+
+        private void LblInfoNutri_Click(object sender, EventArgs e)
+        {
+
+        }
+    }
+
+    public class FoodsResp
+    {
+        public string food_name { get; set; }
+        public string food_type { get; set; }
+        public string food_description { get; set; }
+    }
+}
