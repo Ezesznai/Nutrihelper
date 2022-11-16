@@ -1,0 +1,103 @@
+C:\Users\47653943\source\repos\NutriHelper\NutriHelper\bin\Debug\NutriHelper.exe.config
+C:\Users\47653943\source\repos\NutriHelper\NutriHelper\bin\Debug\NutriHelper.exe
+C:\Users\47653943\source\repos\NutriHelper\NutriHelper\bin\Debug\NutriHelper.pdb
+C:\Users\47653943\source\repos\NutriHelper\NutriHelper\obj\Debug\NutriHelper.csprojAssemblyReference.cache
+C:\Users\47653943\source\repos\NutriHelper\NutriHelper\obj\Debug\NutriHelper.Form1.resources
+C:\Users\47653943\source\repos\NutriHelper\NutriHelper\obj\Debug\NutriHelper.Form2.resources
+C:\Users\47653943\source\repos\NutriHelper\NutriHelper\obj\Debug\NutriHelper.Properties.Resources.resources
+C:\Users\47653943\source\repos\NutriHelper\NutriHelper\obj\Debug\NutriHelper.csproj.GenerateResource.cache
+C:\Users\47653943\source\repos\NutriHelper\NutriHelper\obj\Debug\NutriHelper.csproj.CoreCompileInputs.cache
+C:\Users\47653943\source\repos\NutriHelper\NutriHelper\obj\Debug\NutriHelper.exe
+C:\Users\47653943\source\repos\NutriHelper\NutriHelper\obj\Debug\NutriHelper.pdb
+C:\Users\47653943\source\repos\NutriHelper\NutriHelper\obj\Debug\NutriHelper.Form3.resources
+C:\Users\47653943\source\repos\NutriHelper\NutriHelper\obj\Debug\NutriHelper.Form4.resources
+C:\Users\47653943\source\repos\NutriHelper\NutriHelper\obj\Debug\NutriHelper.Form5.resources
+C:\Users\47653943\source\repos\NutriHelper 17 8 10 20\NutriHelper\bin\Debug\NutriHelper.exe.config
+C:\Users\47653943\source\repos\NutriHelper 17 8 10 20\NutriHelper\bin\Debug\NutriHelper.exe
+C:\Users\47653943\source\repos\NutriHelper 17 8 10 20\NutriHelper\bin\Debug\NutriHelper.pdb
+C:\Users\47653943\source\repos\NutriHelper 17 8 10 20\NutriHelper\obj\Debug\NutriHelper.csprojAssemblyReference.cache
+C:\Users\47653943\source\repos\NutriHelper 17 8 10 20\NutriHelper\obj\Debug\NutriHelper.Form1.resources
+C:\Users\47653943\source\repos\NutriHelper 17 8 10 20\NutriHelper\obj\Debug\NutriHelper.Form2.resources
+C:\Users\47653943\source\repos\NutriHelper 17 8 10 20\NutriHelper\obj\Debug\NutriHelper.Form3.resources
+C:\Users\47653943\source\repos\NutriHelper 17 8 10 20\NutriHelper\obj\Debug\NutriHelper.Form4.resources
+C:\Users\47653943\source\repos\NutriHelper 17 8 10 20\NutriHelper\obj\Debug\NutriHelper.Form5.resources
+C:\Users\47653943\source\repos\NutriHelper 17 8 10 20\NutriHelper\obj\Debug\NutriHelper.Properties.Resources.resources
+C:\Users\47653943\source\repos\NutriHelper 17 8 10 20\NutriHelper\obj\Debug\NutriHelper.csproj.GenerateResource.cache
+C:\Users\47653943\source\repos\NutriHelper 17 8 10 20\NutriHelper\obj\Debug\NutriHelper.csproj.CoreCompileInputs.cache
+C:\Users\47653943\source\repos\NutriHelper 17 8 10 20\NutriHelper\obj\Debug\NutriHelper.exe
+C:\Users\47653943\source\repos\NutriHelper 17 8 10 20\NutriHelper\obj\Debug\NutriHelper.pdb
+C:\Users\47496576\Desktop\Proyecto\NutriHelper 17 8 10 20\NutriHelper\bin\Debug\NutriHelper.exe.config
+C:\Users\47496576\Desktop\Proyecto\NutriHelper 17 8 10 20\NutriHelper\bin\Debug\NutriHelper.exe
+C:\Users\47496576\Desktop\Proyecto\NutriHelper 17 8 10 20\NutriHelper\bin\Debug\NutriHelper.pdb
+C:\Users\47496576\Desktop\Proyecto\NutriHelper 17 8 10 20\NutriHelper\obj\Debug\NutriHelper.csprojAssemblyReference.cache
+C:\Users\47496576\Desktop\Proyecto\NutriHelper 17 8 10 20\NutriHelper\obj\Debug\NutriHelper.Form1.resources
+C:\Users\47496576\Desktop\Proyecto\NutriHelper 17 8 10 20\NutriHelper\obj\Debug\NutriHelper.Form2.resources
+C:\Users\47496576\Desktop\Proyecto\NutriHelper 17 8 10 20\NutriHelper\obj\Debug\NutriHelper.Form3.resources
+C:\Users\47496576\Desktop\Proyecto\NutriHelper 17 8 10 20\NutriHelper\obj\Debug\NutriHelper.Form4.resources
+C:\Users\47496576\Desktop\Proyecto\NutriHelper 17 8 10 20\NutriHelper\obj\Debug\NutriHelper.Properties.Resources.resources
+C:\Users\47496576\Desktop\Proyecto\NutriHelper 17 8 10 20\NutriHelper\obj\Debug\NutriHelper.csproj.GenerateResource.cache
+C:\Users\47496576\Desktop\Proyecto\NutriHelper 17 8 10 20\NutriHelper\obj\Debug\NutriHelper.csproj.CoreCompileInputs.cache
+C:\Users\47496576\Desktop\Proyecto\NutriHelper 17 8 10 20\NutriHelper\obj\Debug\NutriHelper.exe
+C:\Users\47496576\Desktop\Proyecto\NutriHelper 17 8 10 20\NutriHelper\obj\Debug\NutriHelper.pdb
+C:\Users\47496576\Desktop\Proyecto\NutriHelper 17 8 10 20\NutriHelper\obj\Debug\NutriHelper.Form6.resources
+C:\Users\47496576\Desktop\Proyecto\NutriHelper 17 8 10 20\NutriHelper\obj\Debug\NutriHelper.Form7.resources
+C:\Users\47496576\Desktop\Proyecto\NutriHelper 17 8 10 20\NutriHelper\obj\Debug\NutriHelper.csproj.CopyComplete
+C:\Users\47496576\Desktop\Proyecto\NutriHelper 17 8 10 20\NutriHelper\bin\Debug\Newtonsoft.Json.dll
+C:\Users\47496576\Desktop\Proyecto\NutriHelper 17 8 10 20\NutriHelper\bin\Debug\Newtonsoft.Json.xml
+C:\Users\47496576\Desktop\Proyecto\NutriHelper 17 8 10 20\NutriHelper\obj\Debug\NutriHelper.Form5.resources
+C:\Users\47496576\Desktop\Proyecto\NutriHelper 17 8 10 20\NutriHelper\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\47496576\Desktop\Proyecto\NutriHelper 17 8 10 20\NutriHelper\bin\Debug\System.Buffers.dll
+C:\Users\47496576\Desktop\Proyecto\NutriHelper 17 8 10 20\NutriHelper\bin\Debug\System.Memory.dll
+C:\Users\47496576\Desktop\Proyecto\NutriHelper 17 8 10 20\NutriHelper\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\47496576\Desktop\Proyecto\NutriHelper 17 8 10 20\NutriHelper\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\47496576\Desktop\Proyecto\NutriHelper 17 8 10 20\NutriHelper\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\47496576\Desktop\Proyecto\NutriHelper 17 8 10 20\NutriHelper\bin\Debug\System.Text.Json.dll
+C:\Users\47496576\Desktop\Proyecto\NutriHelper 17 8 10 20\NutriHelper\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\47496576\Desktop\Proyecto\NutriHelper 17 8 10 20\NutriHelper\bin\Debug\System.ValueTuple.dll
+C:\Users\47496576\Desktop\Proyecto\NutriHelper 17 8 10 20\NutriHelper\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\47496576\Desktop\Proyecto\NutriHelper 17 8 10 20\NutriHelper\bin\Debug\System.Buffers.xml
+C:\Users\47496576\Desktop\Proyecto\NutriHelper 17 8 10 20\NutriHelper\bin\Debug\System.Memory.xml
+C:\Users\47496576\Desktop\Proyecto\NutriHelper 17 8 10 20\NutriHelper\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\47496576\Desktop\Proyecto\NutriHelper 17 8 10 20\NutriHelper\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\47496576\Desktop\Proyecto\NutriHelper 17 8 10 20\NutriHelper\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\47496576\Desktop\Proyecto\NutriHelper 17 8 10 20\NutriHelper\bin\Debug\System.Text.Json.xml
+C:\Users\47496576\Desktop\Proyecto\NutriHelper 17 8 10 20\NutriHelper\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\47496576\Desktop\Proyecto\NutriHelper 17 8 10 20\NutriHelper\bin\Debug\System.ValueTuple.xml
+C:\Users\47496576\Downloads\Nutrihelper-main\NutriHelper CHUNI PC\NutriHelper\bin\Debug\NutriHelper.exe.config
+C:\Users\47496576\Downloads\Nutrihelper-main\NutriHelper CHUNI PC\NutriHelper\bin\Debug\NutriHelper.exe
+C:\Users\47496576\Downloads\Nutrihelper-main\NutriHelper CHUNI PC\NutriHelper\bin\Debug\NutriHelper.pdb
+C:\Users\47496576\Downloads\Nutrihelper-main\NutriHelper CHUNI PC\NutriHelper\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\47496576\Downloads\Nutrihelper-main\NutriHelper CHUNI PC\NutriHelper\bin\Debug\Newtonsoft.Json.dll
+C:\Users\47496576\Downloads\Nutrihelper-main\NutriHelper CHUNI PC\NutriHelper\bin\Debug\System.Buffers.dll
+C:\Users\47496576\Downloads\Nutrihelper-main\NutriHelper CHUNI PC\NutriHelper\bin\Debug\System.Memory.dll
+C:\Users\47496576\Downloads\Nutrihelper-main\NutriHelper CHUNI PC\NutriHelper\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\47496576\Downloads\Nutrihelper-main\NutriHelper CHUNI PC\NutriHelper\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\47496576\Downloads\Nutrihelper-main\NutriHelper CHUNI PC\NutriHelper\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\47496576\Downloads\Nutrihelper-main\NutriHelper CHUNI PC\NutriHelper\bin\Debug\System.Text.Json.dll
+C:\Users\47496576\Downloads\Nutrihelper-main\NutriHelper CHUNI PC\NutriHelper\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\47496576\Downloads\Nutrihelper-main\NutriHelper CHUNI PC\NutriHelper\bin\Debug\System.ValueTuple.dll
+C:\Users\47496576\Downloads\Nutrihelper-main\NutriHelper CHUNI PC\NutriHelper\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\47496576\Downloads\Nutrihelper-main\NutriHelper CHUNI PC\NutriHelper\bin\Debug\Newtonsoft.Json.xml
+C:\Users\47496576\Downloads\Nutrihelper-main\NutriHelper CHUNI PC\NutriHelper\bin\Debug\System.Buffers.xml
+C:\Users\47496576\Downloads\Nutrihelper-main\NutriHelper CHUNI PC\NutriHelper\bin\Debug\System.Memory.xml
+C:\Users\47496576\Downloads\Nutrihelper-main\NutriHelper CHUNI PC\NutriHelper\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\47496576\Downloads\Nutrihelper-main\NutriHelper CHUNI PC\NutriHelper\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\47496576\Downloads\Nutrihelper-main\NutriHelper CHUNI PC\NutriHelper\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\47496576\Downloads\Nutrihelper-main\NutriHelper CHUNI PC\NutriHelper\bin\Debug\System.Text.Json.xml
+C:\Users\47496576\Downloads\Nutrihelper-main\NutriHelper CHUNI PC\NutriHelper\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\47496576\Downloads\Nutrihelper-main\NutriHelper CHUNI PC\NutriHelper\bin\Debug\System.ValueTuple.xml
+C:\Users\47496576\Downloads\Nutrihelper-main\NutriHelper CHUNI PC\NutriHelper\obj\Debug\NutriHelper.csprojAssemblyReference.cache
+C:\Users\47496576\Downloads\Nutrihelper-main\NutriHelper CHUNI PC\NutriHelper\obj\Debug\NutriHelper.Form1.resources
+C:\Users\47496576\Downloads\Nutrihelper-main\NutriHelper CHUNI PC\NutriHelper\obj\Debug\NutriHelper.Form2.resources
+C:\Users\47496576\Downloads\Nutrihelper-main\NutriHelper CHUNI PC\NutriHelper\obj\Debug\NutriHelper.Form3.resources
+C:\Users\47496576\Downloads\Nutrihelper-main\NutriHelper CHUNI PC\NutriHelper\obj\Debug\NutriHelper.Form4.resources
+C:\Users\47496576\Downloads\Nutrihelper-main\NutriHelper CHUNI PC\NutriHelper\obj\Debug\NutriHelper.Form5.resources
+C:\Users\47496576\Downloads\Nutrihelper-main\NutriHelper CHUNI PC\NutriHelper\obj\Debug\NutriHelper.Form6.resources
+C:\Users\47496576\Downloads\Nutrihelper-main\NutriHelper CHUNI PC\NutriHelper\obj\Debug\NutriHelper.Form7.resources
+C:\Users\47496576\Downloads\Nutrihelper-main\NutriHelper CHUNI PC\NutriHelper\obj\Debug\NutriHelper.Form8.resources
+C:\Users\47496576\Downloads\Nutrihelper-main\NutriHelper CHUNI PC\NutriHelper\obj\Debug\NutriHelper.Properties.Resources.resources
+C:\Users\47496576\Downloads\Nutrihelper-main\NutriHelper CHUNI PC\NutriHelper\obj\Debug\NutriHelper.csproj.GenerateResource.cache
+C:\Users\47496576\Downloads\Nutrihelper-main\NutriHelper CHUNI PC\NutriHelper\obj\Debug\NutriHelper.csproj.CoreCompileInputs.cache
+C:\Users\47496576\Downloads\Nutrihelper-main\NutriHelper CHUNI PC\NutriHelper\obj\Debug\NutriHelper.csproj.CopyComplete
+C:\Users\47496576\Downloads\Nutrihelper-main\NutriHelper CHUNI PC\NutriHelper\obj\Debug\NutriHelper.exe
+C:\Users\47496576\Downloads\Nutrihelper-main\NutriHelper CHUNI PC\NutriHelper\obj\Debug\NutriHelper.pdb
