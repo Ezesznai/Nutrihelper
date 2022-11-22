@@ -1,0 +1,10 @@
+C:\Users\47496576\source\repos\TP HARRY POTTER\TP HARRY POTTER\bin\Debug\TP HARRY POTTER.exe.config
+C:\Users\47496576\source\repos\TP HARRY POTTER\TP HARRY POTTER\bin\Debug\TP HARRY POTTER.exe
+C:\Users\47496576\source\repos\TP HARRY POTTER\TP HARRY POTTER\bin\Debug\TP HARRY POTTER.pdb
+C:\Users\47496576\source\repos\TP HARRY POTTER\TP HARRY POTTER\obj\Debug\TP HARRY POTTER.csprojAssemblyReference.cache
+C:\Users\47496576\source\repos\TP HARRY POTTER\TP HARRY POTTER\obj\Debug\TP_HARRY_POTTER.Form1.resources
+C:\Users\47496576\source\repos\TP HARRY POTTER\TP HARRY POTTER\obj\Debug\TP_HARRY_POTTER.Properties.Resources.resources
+C:\Users\47496576\source\repos\TP HARRY POTTER\TP HARRY POTTER\obj\Debug\TP HARRY POTTER.csproj.GenerateResource.cache
+C:\Users\47496576\source\repos\TP HARRY POTTER\TP HARRY POTTER\obj\Debug\TP HARRY POTTER.csproj.CoreCompileInputs.cache
+C:\Users\47496576\source\repos\TP HARRY POTTER\TP HARRY POTTER\obj\Debug\TP HARRY POTTER.exe
+C:\Users\47496576\source\repos\TP HARRY POTTER\TP HARRY POTTER\obj\Debug\TP HARRY POTTER.pdb
