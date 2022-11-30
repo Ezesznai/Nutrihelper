@@ -37,7 +37,7 @@
 			// lbl_kcal
 			// 
 			this.lbl_kcal.AutoSize = true;
-			this.lbl_kcal.Location = new System.Drawing.Point(166, 112);
+			this.lbl_kcal.Location = new System.Drawing.Point(687, 545);
 			this.lbl_kcal.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.lbl_kcal.Name = "lbl_kcal";
 			this.lbl_kcal.Size = new System.Drawing.Size(0, 17);

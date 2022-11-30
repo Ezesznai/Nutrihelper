@@ -35,6 +35,7 @@
 			// btn_empezar
 			// 
 			this.btn_empezar.BackColor = System.Drawing.Color.Transparent;
+			this.btn_empezar.Cursor = System.Windows.Forms.Cursors.Hand;
 			this.btn_empezar.FlatAppearance.BorderSize = 0;
 			this.btn_empezar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
 			this.btn_empezar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;

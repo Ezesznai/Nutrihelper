@@ -20,7 +20,7 @@ namespace NutriHelper
         static public double imc;
         static public int metros;
         static public string password;
-        static public double kcal_hoy;
+        static public int kcal_hoy;
         static public int kcal_hoy_almuerzo;
         static public int kcal_hoy_cena;
         static public int kcal_hoy_desayuno;
